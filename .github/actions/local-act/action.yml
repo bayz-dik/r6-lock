@@ -1,0 +1,8 @@
+name: 'local-canary'
+description: 'Local composite action for transitive lockfile test'
+runs:
+  using: 'composite'
+  steps:
+    - uses: bayz-dik/r6-act@v1
+    - run: echo "LOCAL-ACT-DONE"
+      shell: bash

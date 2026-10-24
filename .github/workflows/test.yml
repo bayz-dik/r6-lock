@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: bayz-dik/r6-act@v1
+      - uses: $/.github/actions/local-act
       - uses: actions/checkout@v4.4.0
       - run: echo "WORKFLOW-DONE"
         shell: bash
