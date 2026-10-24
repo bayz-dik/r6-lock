@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: bayz-dik/r6-act@v1
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.4.0
       - run: echo "WORKFLOW-DONE"
         shell: bash
