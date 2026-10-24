@@ -14,6 +14,6 @@ dependencies:
         repo_id: 197814629
     'bayz-dik/r6-act@v1':
         ref: 'v1'
-        commit: 'sha1-48d7dfbea469a8d5549f885260af173e11aa18d7'
+        commit: 'sha1-1111111111111111111111111111111111111111'
         owner_id: 312392156
         repo_id: 1431920247
