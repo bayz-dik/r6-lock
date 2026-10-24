@@ -1,0 +1,6 @@
+name: test2
+on:
+  workflow_dispatch:
+jobs:
+  caller:
+    uses: bayz-dik/r6-act/.github/workflows/reuse.yml@v1
